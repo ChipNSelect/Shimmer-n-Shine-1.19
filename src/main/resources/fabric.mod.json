@@ -4,9 +4,10 @@
   "version": "${version}",
 
   "name": "Tutorial Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "An awful mod where I add among us memes and wallow in sleep deprivation",
   "authors": [
-    "chipSelect"
+    "chipSelect",
+    "Fragile"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",

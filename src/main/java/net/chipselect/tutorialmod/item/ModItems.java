@@ -8,10 +8,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    public static final Item AMONG_US_IMPOSTOR = registerItem("amongus_impostor",
-            new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
-    public static final Item AMONG_US_KNIFE = registerItem("amongus_knife",
-            new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item AMONGUS_IMPOSTOR = registerItem("amongus_impostor",
+            new Item(new FabricItemSettings().group(ModItemGroup.AMONGUS)));
+    public static final Item AMONGUS_KNIFE = registerItem("amongus_knife",
+            new Item(new FabricItemSettings().group(ModItemGroup.AMONGUS2)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);
