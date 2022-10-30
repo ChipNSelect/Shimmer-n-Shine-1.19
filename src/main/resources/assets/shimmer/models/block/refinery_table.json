@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "tutorialmod:block/amongus_vent"
+    "all": "shimmer:blocks/refinery_table"
   }
 }

@@ -1,0 +1,5 @@
+{
+  "variants":{
+    "": { "model": "shimmer:block/refinery_table" }
+  }
+}

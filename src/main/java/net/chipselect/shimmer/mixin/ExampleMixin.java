@@ -1,6 +1,6 @@
-package net.chipselect.tutorialmod.mixin;
+package net.chipselect.shimmer.mixin;
 
-import net.chipselect.tutorialmod.TutorialMod;
+import net.chipselect.shimmer.Shimmer;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		TutorialMod.LOGGER.info("This line is printed by an example mod mixin!");
+		Shimmer.LOGGER.info("It sparkles and shimmers. It shines and delights. I must have it for my nest...");
 	}
 }

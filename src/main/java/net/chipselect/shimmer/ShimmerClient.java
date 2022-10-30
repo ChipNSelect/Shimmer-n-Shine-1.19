@@ -1,8 +1,8 @@
-package net.chipselect.tutorialmod;
+package net.chipselect.shimmer;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class TutorialModClient implements ClientModInitializer {
+public class ShimmerClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

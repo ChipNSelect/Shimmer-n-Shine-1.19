@@ -1,13 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "shimmer",
   "version": "${version}",
 
-  "name": "Tutorial Mod",
-  "description": "An awful mod where I add among us memes and wallow in sleep deprivation",
+  "name": "Shimmer n' Shine",
+  "description": "An experimental mod about lenses and making some things more useful",
   "authors": [
-    "chipSelect",
-    "Fragile"
+    "chipSelect"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -20,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.chipselect.tutorialmod.TutorialMod"
+      "net.chipselect.shimmer.Shimmer"
     ],
     "client": [
-      "net.chipselect.tutorialmod.TutorialModClient"
+      "net.chipselect.shimmer.ShimmerClient"
     ]
   },
   "mixins": [
-    "tutorialmod.mixins.json"
+    "shimmer.mixins.json"
   ],
 
   "depends": {
