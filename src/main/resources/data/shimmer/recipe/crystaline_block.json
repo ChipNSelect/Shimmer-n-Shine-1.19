@@ -1,0 +1,14 @@
+{
+  "type": "minecraft/crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key":{
+    "#": {
+      "item": "shimmer:raw_crystaline"
+    }
+  },
+  "result": "shimmer:block_of_crystaline"
+}

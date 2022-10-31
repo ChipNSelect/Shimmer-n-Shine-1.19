@@ -8,6 +8,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final  Item RAW_CRYSTALINE = registerItem("raw_crystaline",
+            //RAW CRYSTALINE'S TEXTURE IS TOO BIG
             new Item(new FabricItemSettings().group(ModItemGroup.SPYGLASS_WONDERS)));
     public static final Item CRYSTALINE_LENS = registerItem("crystaline_lens",
             new Item(new FabricItemSettings().group(ModItemGroup.SPYGLASS_WONDERS)));
