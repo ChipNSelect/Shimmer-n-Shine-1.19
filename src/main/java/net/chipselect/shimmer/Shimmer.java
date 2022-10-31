@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 public class Shimmer implements ModInitializer {
 
-	public static final String MOD_ID = "net";
+	public static final String MOD_ID = "shimmer";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 

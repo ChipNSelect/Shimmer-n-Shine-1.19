@@ -15,6 +15,11 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
     public static final Block REFINERY_TABLE = registerBlock("refinery_table",
             new Block(FabricBlockSettings.of(Material.WOOD).strength(10f)), ModItemGroup.SPYGLASS_WONDERS);
+    public static final Block BLOCK_OF_CRYSTALINE = registerBlock("block_of_crystaline",
+            new Block(FabricBlockSettings.of(Material.AMETHYST).strength(15f)),ModItemGroup.SPYGLASS_WONDERS);
+    //ADD THE CRYSTALINE ORE BOZO
+
+
 
 
     public static Block registerBlock(String name, Block block, ItemGroup tab){
